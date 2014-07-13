@@ -1,0 +1,9 @@
+%nav.navbar.navbar-default{:role => "navigation"}
+  .container-fluid
+    .navbar-header
+      .container
+        .three
+          .col-sm-10  
+            %center MY BLOG
+          .col-sm-2
+            %img{:alt => "Edit Entry", :height => "100", :src => "/assets/welcome.jpg", :width => "100"}/
