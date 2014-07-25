@@ -1,4 +1,6 @@
 <%= div_for post do %>
+<center>
 <h2><%= link_to_unless_current h(post.title), post %></h2>
+</center>
 <%= simple_format h(post.body) %>
 <% end %>
